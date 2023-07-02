@@ -1,0 +1,84 @@
+/* setting up major blocks and basic styles from the image provided */
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1, .footer {
+    background-color: #1F2937;
+}
+
+.header-info-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-info, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+button, .square, .box4 {
+    background-color: #3882F6;
+    border-radius: 20px;
+}
+
+button {
+    color: #F9FAF8;
+    border-style: solid;
+}
+
+.container2 button {
+    border-color: #1F2937;
+}
+
+.box4 button {
+    border-color: #F9FAF8;
+}
+
+.square {
+    border: #3882F6;
+    border-radius: 20px;
+}
+
+.box3 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.left-text-call {
+    font-size: 24px;
+    font-weight: bold;
+    color:#F9FAF8;
+}
+
+.left-text-signup {
+    font-size: 18px;
+    color:#F9FAF8;
+}
