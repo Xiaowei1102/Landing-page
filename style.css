@@ -29,6 +29,11 @@ body{
     font-weight: bold;
 }
 
+.placeholder {
+    background-color: grey;
+    color:#E5E7EB;
+}
+
 .random-info {
     font-size: 36px;
     font-weight: bold;
