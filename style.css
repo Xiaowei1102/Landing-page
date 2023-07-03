@@ -1,6 +1,7 @@
 /* setting up major blocks and basic styles from the image provided */
 body{
-    height: 100vh;
+    width: 1440px;
+    height: 1912px;
     display: flex;
     flex-direction: column;
     
@@ -88,8 +89,13 @@ button {
 }
 
 .square {
-    border: #3882F6;
-    border-radius: 20px;
+    border: 3px #3882F6 solid;
+    /* border-radius: 20px; */
+    
+    width: 50px;
+    height: 50px;
+    
+    background-color:white;
 }
 
 .box3 {
@@ -160,4 +166,28 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* work on box2 style */
+
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    max-width: 120px;
+}
+
+.square {
+    flex: 1 1 auto;
+}
+
+.random-info {
+    text-align: center;
+}
+
+
+.illustration-container {
+    display: flex;
+    justify-content: center;
+
 }
