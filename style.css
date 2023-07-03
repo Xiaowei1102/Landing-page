@@ -111,6 +111,7 @@ button {
 
 .author {
     font-weight: bold;
+    font-size: 24px;
 }
 
 .left-text-call {
@@ -203,4 +204,22 @@ a {
     text-align: center;
     
 }
+
+/* work on .box3 styling */
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width:820px;
+}
+.author {
+    width: 750px;
+    text-align: right;
+}
+
 
