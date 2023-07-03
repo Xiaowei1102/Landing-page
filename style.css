@@ -232,3 +232,12 @@ a {
     gap: 200px;
 }
 
+/* work on .footer styling */
+.footer {
+    font-size: 18px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
